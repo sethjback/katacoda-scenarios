@@ -23,16 +23,22 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "configure.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
     }
   },
   "environment": {
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu"
   }
 }
