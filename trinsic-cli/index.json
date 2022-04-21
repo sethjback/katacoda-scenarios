@@ -26,14 +26,16 @@
     "intro": {
       "text": "intro.md",
       "courseData": "configure.sh",
-      "code": "assets/wait.sh"
+      "code": "ready.sh"
     },
     "finish": {
       "text": "finish.md"
     },
     "assets": {
       "host01": [
-          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "templ.json", "target": "/root/"},
+          {"file": "values.json", "target": "/root/"}
       ]
     }
   },

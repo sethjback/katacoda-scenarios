@@ -24,6 +24,7 @@ show_progress()
   printf "    \b\b\b\b"
   echo ""
   echo "Configured"
+  rm /root/katacoda-background-finished
 }
 
 show_progress
