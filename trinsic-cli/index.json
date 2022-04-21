@@ -24,7 +24,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "configure.sh"
+      "courseData": "configure.sh",
+      "code": "wait.sh"
     },
     "finish": {
       "text": "finish.md"
