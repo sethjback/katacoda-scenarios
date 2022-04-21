@@ -33,7 +33,7 @@
     },
     "assets": {
       "host01": [
-          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "wait.sh", "target": "/usr/local/bin/install_cli.sh", "chmod": "+x"},
           {"file": "templ.json", "target": "/root/"},
           {"file": "values.json", "target": "/root/"}
       ]
