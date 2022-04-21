@@ -1,3 +1,3 @@
 #!/bin/bash
 
-install_cli.sh
+install.sh
