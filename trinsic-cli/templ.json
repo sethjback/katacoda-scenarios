@@ -1,0 +1,19 @@
+{
+    "holderFullName": {
+      "description": "Holder's Full Name",
+      "optional": true
+    },
+    "commendation": {
+        "description": "Something nice to say about them",
+        "optional": true
+    },
+    "credentialType": {
+      "description": "Credential Type",
+      "optional": false
+    },
+    "credentialIssuer": {
+      "description": "Credential Issuer",
+      "optional": false
+    }
+  }
+  

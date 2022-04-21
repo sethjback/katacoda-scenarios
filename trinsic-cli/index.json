@@ -10,15 +10,16 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Ecosystems",
+        "text": "step2.md",
+        "code": "clear.sh"
       },
       {
-        "title": "Step 3",
+        "title": "Templates",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Issuing a credential",
         "text": "step4.md"
       }
     ],
